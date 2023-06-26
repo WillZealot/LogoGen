@@ -19,7 +19,7 @@ const questions = [
   .then((answers) => {
     //TODO: Generate logo content using user's answers
 
-    console.log(questions);
+    console.log(answers);
 
     fs.writeFile('Logo.svg', markdownContent, (err) => { // Write markdown content to README.md file
       if (err) {
