@@ -42,7 +42,7 @@ const createSvg = () => {
     .then((data) => {
       // TODO: Generate logo content using user's answers
 
-      const path = 'newLogo.svg'; // Path to the output SVG file
+      const path = './YourGeneratedLogo/newLogo.svg'; // Path to the output SVG file
       const answers = data; // User's answers from inquirer prompt
 
       let shapetype;
