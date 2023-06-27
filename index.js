@@ -20,7 +20,7 @@ const questions = [
     //TODO: Generate logo content using user's answers
 
     console.log(answers);
-
+    
     fs.writeFile('Logo.svg', markdownContent, (err) => { // Write markdown content to README.md file
       if (err) {
         console.error('Error creating logo:', err);
